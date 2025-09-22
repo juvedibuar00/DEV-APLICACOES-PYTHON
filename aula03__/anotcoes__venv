@@ -1,0 +1,13 @@
+
+Forçar a venv
+1.
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+2.
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
+
+
+3.
+Set-ExecutionPolicy RemoteSigned -Scope LocalMachine
+
+4.
