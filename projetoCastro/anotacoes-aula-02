@@ -1,0 +1,13 @@
+SQLite: banco leve, salva dados em um único arquivo. Ideal para testes e projetos pequenos.
+
+MySQL: banco robusto, servidor multiusuário, ideal para produção.
+
+1º Passo: Configuração da venv no terminal
+python -m venv venv
+Ativar a venv:
+No Windows: .\venv\Scripts\activate
+No Linux/Mac: source venv/bin/activate
+2º Passo: instalação de sqlalchemy pymysql e python-dotvenv
+pip install sqlalchemy pymysql python-dotenv
+
+3º Passo: Criar o arquivo .env para guardar as variáveis de ambiente
